@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.swades.utilities.ExtentListenerClass"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.swades.rainFall.testCases.GET_get_metric__hrly_data"/>
+      <class name="com.swades.rainFall.testCases.GET_getFlowMeasurementData"/>
+      <class name="com.swades.rainFall.testCases.GET_reportsargandsunshinedata"/>
+      <class name="com.swades.rainFall.testCases.GET_reportsclimaticReport"/>
+      <class name="com.swades.rainFall.testCases.GET_reportsargandsrgdata"/>
+      <class name="com.swades.rainFall.testCases.GET_reportsrainfallReport"/>
+      <class name="com.swades.rainFall.testCases.GET_get_fps_hrly_data"/>
+      <class name="com.swades.rainFall.testCases.GET_get_sum_sqs_data"/>
+      <class name="com.swades.rainFall.testCases.GET_climaticall"/>
+      <class name="com.swades.rainFall.testCases.GET_reportsargtdandsrgdata"/>
+      <class name="com.swades.rainFall.testCases.GET_ObsDataHRall"/>
+      <class name="com.swades.rainFall.testCases.GET_Rainfall"/>
+
+
+      <class name="com.swades.master.testCases.GET_StationWiseSeriesData"/>
+      <class name="com.swades.master.testCases.GET_MasterStationAll"/>
+      <class name="com.swades.master.testCases.GET_getobsdata"/>
+      <class name="com.swades.master.testCases.GET_master_rl"/>
+      <class name="com.swades.master.testCases.GET_getNearestStations"/>
+      <class name="com.swades.master.testCases.GET_MasterResponseall"/>
+      <class name="com.swades.master.testCases.GET_findAllSeries"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+ 
+    
+      
+
+ 
+

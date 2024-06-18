@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 18 12:39:13 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4927 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_get_fps_hrly_data.get_fps_hrly_data()'><b>get_fps_hrly_data</b><br>Test class: com.swades.rainFall.testCases.GET_get_fps_hrly_data</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_get_fps_hrly_data@66bfd864</td></tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_ObsDataHRall.get_ObsDataHRall()'><b>get_ObsDataHRall</b><br>Test class: com.swades.rainFall.testCases.GET_ObsDataHRall</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_ObsDataHRall@5972d253</td></tr>
+<tr>
+<td title='com.swades.master.testCases.GET_findAllSeries.get_findAllSeries()'><b>get_findAllSeries</b><br>Test class: com.swades.master.testCases.GET_findAllSeries</td>
+<td></td>
+<td>0</td>
+<td>com.swades.master.testCases.GET_findAllSeries@7bde1f3a</td></tr>
+<tr>
+<td title='com.swades.master.testCases.GET_MasterResponseall.get_MasterResponseall()'><b>get_MasterResponseall</b><br>Test class: com.swades.master.testCases.GET_MasterResponseall</td>
+<td></td>
+<td>0</td>
+<td>com.swades.master.testCases.GET_MasterResponseall@29fc1a2b</td></tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_reportsargandsunshinedata.get_reportsargandsunshinedata()'><b>get_reportsargandsunshinedata</b><br>Test class: com.swades.rainFall.testCases.GET_reportsargandsunshinedata</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_reportsargandsunshinedata@baf1bb3</td></tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_reportsrainfallReport.get_reportsrainfallReport()'><b>get_reportsrainfallReport</b><br>Test class: com.swades.rainFall.testCases.GET_reportsrainfallReport</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_reportsrainfallReport@201aa8c1</td></tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_get_sum_sqs_data.get_sum_sqs_data()'><b>get_sum_sqs_data</b><br>Test class: com.swades.rainFall.testCases.GET_get_sum_sqs_data</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_get_sum_sqs_data@18324f97</td></tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_reportsclimaticReport.get_reportsclimaticReport()'><b>get_reportsclimaticReport</b><br>Test class: com.swades.rainFall.testCases.GET_reportsclimaticReport</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_reportsclimaticReport@30af7377</td></tr>
+<tr>
+<td title='com.swades.master.testCases.GET_MasterStationAll.get_DownloadMasterDetails()'><b>get_DownloadMasterDetails</b><br>Test class: com.swades.master.testCases.GET_MasterStationAll</td>
+<td></td>
+<td>0</td>
+<td>com.swades.master.testCases.GET_MasterStationAll@57b9e423</td></tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_reportsargandsrgdata.get_reportsargandsrgdata()'><b>get_reportsargandsrgdata</b><br>Test class: com.swades.rainFall.testCases.GET_reportsargandsrgdata</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_reportsargandsrgdata@2d66530f</td></tr>
+<tr>
+<td title='com.swades.master.testCases.GET_master_rl.GET_Master_rl()'><b>GET_Master_rl</b><br>Test class: com.swades.master.testCases.GET_master_rl</td>
+<td></td>
+<td>0</td>
+<td>com.swades.master.testCases.GET_master_rl@5965844d</td></tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_getFlowMeasurementData.getFlowMeasurementData()'><b>getFlowMeasurementData</b><br>Test class: com.swades.rainFall.testCases.GET_getFlowMeasurementData</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_getFlowMeasurementData@7c974942</td></tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_climaticall.get_climaticall()'><b>get_climaticall</b><br>Test class: com.swades.rainFall.testCases.GET_climaticall</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_climaticall@30135202</td></tr>
+<tr>
+<td title='com.swades.master.testCases.GET_getobsdata.get_getobsdata()'><b>get_getobsdata</b><br>Test class: com.swades.master.testCases.GET_getobsdata</td>
+<td></td>
+<td>0</td>
+<td>com.swades.master.testCases.GET_getobsdata@30b2b76f</td></tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_get_metric__hrly_data.get_metric__hrly_data()'><b>get_metric__hrly_data</b><br>Test class: com.swades.rainFall.testCases.GET_get_metric__hrly_data</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_get_metric__hrly_data@c3fa05a</td></tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_reportsargtdandsrgdata.get_reportsargtdandsrgdata()'><b>get_reportsargtdandsrgdata</b><br>Test class: com.swades.rainFall.testCases.GET_reportsargtdandsrgdata</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_reportsargtdandsrgdata@2d6aca33</td></tr>
+<tr>
+<td title='com.swades.master.testCases.GET_getNearestStations.getNearestStations()'><b>getNearestStations</b><br>Test class: com.swades.master.testCases.GET_getNearestStations</td>
+<td></td>
+<td>0</td>
+<td>com.swades.master.testCases.GET_getNearestStations@7b2a3ff8</td></tr>
+<tr>
+<td title='com.swades.rainFall.testCases.GET_Rainfall.get_Rainfall()'><b>get_Rainfall</b><br>Test class: com.swades.rainFall.testCases.GET_Rainfall</td>
+<td></td>
+<td>0</td>
+<td>com.swades.rainFall.testCases.GET_Rainfall@6a969fb8</td></tr>
+<tr>
+<td title='com.swades.master.testCases.GET_StationWiseSeriesData.StationWiseSeriesData()'><b>StationWiseSeriesData</b><br>Test class: com.swades.master.testCases.GET_StationWiseSeriesData</td>
+<td></td>
+<td>0</td>
+<td>com.swades.master.testCases.GET_StationWiseSeriesData@726a17c4</td></tr>
+</table><p>
+</body>
+</html>

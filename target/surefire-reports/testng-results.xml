@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4927" started-at="2024-06-18T12:39:13 IST" finished-at="2024-06-18T12:39:18 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4927" started-at="2024-06-18T12:39:13 IST" finished-at="2024-06-18T12:39:18 IST">
+      <class name="com.swades.rainFall.testCases.GET_reportsargandsrgdata">
+        <test-method status="PASS" signature="get_reportsargandsrgdata()[pri:0, instance:com.swades.rainFall.testCases.GET_reportsargandsrgdata@2d66530f]" name="get_reportsargandsrgdata" duration-ms="425" started-at="2024-06-18T12:39:14 IST" finished-at="2024-06-18T12:39:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_reportsargandsrgdata -->
+      </class> <!-- com.swades.rainFall.testCases.GET_reportsargandsrgdata -->
+      <class name="com.swades.rainFall.testCases.GET_climaticall">
+        <test-method status="PASS" signature="get_climaticall()[pri:0, instance:com.swades.rainFall.testCases.GET_climaticall@30135202]" name="get_climaticall" duration-ms="97" started-at="2024-06-18T12:39:15 IST" finished-at="2024-06-18T12:39:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_climaticall -->
+      </class> <!-- com.swades.rainFall.testCases.GET_climaticall -->
+      <class name="com.swades.master.testCases.GET_MasterStationAll">
+        <test-method status="PASS" signature="get_DownloadMasterDetails()[pri:0, instance:com.swades.master.testCases.GET_MasterStationAll@57b9e423]" name="get_DownloadMasterDetails" duration-ms="558" started-at="2024-06-18T12:39:16 IST" finished-at="2024-06-18T12:39:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_DownloadMasterDetails -->
+      </class> <!-- com.swades.master.testCases.GET_MasterStationAll -->
+      <class name="com.swades.rainFall.testCases.GET_reportsargandsunshinedata">
+        <test-method status="PASS" signature="get_reportsargandsunshinedata()[pri:0, instance:com.swades.rainFall.testCases.GET_reportsargandsunshinedata@baf1bb3]" name="get_reportsargandsunshinedata" duration-ms="111" started-at="2024-06-18T12:39:14 IST" finished-at="2024-06-18T12:39:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_reportsargandsunshinedata -->
+      </class> <!-- com.swades.rainFall.testCases.GET_reportsargandsunshinedata -->
+      <class name="com.swades.master.testCases.GET_getNearestStations">
+        <test-method status="PASS" signature="getNearestStations()[pri:0, instance:com.swades.master.testCases.GET_getNearestStations@7b2a3ff8]" name="getNearestStations" duration-ms="117" started-at="2024-06-18T12:39:17 IST" finished-at="2024-06-18T12:39:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNearestStations -->
+      </class> <!-- com.swades.master.testCases.GET_getNearestStations -->
+      <class name="com.swades.rainFall.testCases.GET_reportsargtdandsrgdata">
+        <test-method status="PASS" signature="get_reportsargtdandsrgdata()[pri:0, instance:com.swades.rainFall.testCases.GET_reportsargtdandsrgdata@2d6aca33]" name="get_reportsargtdandsrgdata" duration-ms="101" started-at="2024-06-18T12:39:15 IST" finished-at="2024-06-18T12:39:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_reportsargtdandsrgdata -->
+      </class> <!-- com.swades.rainFall.testCases.GET_reportsargtdandsrgdata -->
+      <class name="com.swades.master.testCases.GET_master_rl">
+        <test-method status="PASS" signature="GET_Master_rl()[pri:0, instance:com.swades.master.testCases.GET_master_rl@5965844d]" name="GET_Master_rl" duration-ms="108" started-at="2024-06-18T12:39:17 IST" finished-at="2024-06-18T12:39:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_Master_rl -->
+      </class> <!-- com.swades.master.testCases.GET_master_rl -->
+      <class name="com.swades.master.testCases.GET_StationWiseSeriesData">
+        <test-method status="PASS" signature="StationWiseSeriesData()[pri:0, instance:com.swades.master.testCases.GET_StationWiseSeriesData@726a17c4]" name="StationWiseSeriesData" duration-ms="92" started-at="2024-06-18T12:39:16 IST" finished-at="2024-06-18T12:39:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StationWiseSeriesData -->
+      </class> <!-- com.swades.master.testCases.GET_StationWiseSeriesData -->
+      <class name="com.swades.master.testCases.GET_MasterResponseall">
+        <test-method status="PASS" signature="get_MasterResponseall()[pri:0, instance:com.swades.master.testCases.GET_MasterResponseall@29fc1a2b]" name="get_MasterResponseall" duration-ms="388" started-at="2024-06-18T12:39:17 IST" finished-at="2024-06-18T12:39:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_MasterResponseall -->
+      </class> <!-- com.swades.master.testCases.GET_MasterResponseall -->
+      <class name="com.swades.master.testCases.GET_findAllSeries">
+        <test-method status="PASS" signature="get_findAllSeries()[pri:0, instance:com.swades.master.testCases.GET_findAllSeries@7bde1f3a]" name="get_findAllSeries" duration-ms="905" started-at="2024-06-18T12:39:17 IST" finished-at="2024-06-18T12:39:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_findAllSeries -->
+      </class> <!-- com.swades.master.testCases.GET_findAllSeries -->
+      <class name="com.swades.master.testCases.GET_getobsdata">
+        <test-method status="PASS" signature="get_getobsdata()[pri:0, instance:com.swades.master.testCases.GET_getobsdata@30b2b76f]" name="get_getobsdata" duration-ms="267" started-at="2024-06-18T12:39:16 IST" finished-at="2024-06-18T12:39:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_getobsdata -->
+      </class> <!-- com.swades.master.testCases.GET_getobsdata -->
+      <class name="com.swades.rainFall.testCases.GET_reportsclimaticReport">
+        <test-method status="PASS" signature="get_reportsclimaticReport()[pri:0, instance:com.swades.rainFall.testCases.GET_reportsclimaticReport@30af7377]" name="get_reportsclimaticReport" duration-ms="182" started-at="2024-06-18T12:39:14 IST" finished-at="2024-06-18T12:39:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_reportsclimaticReport -->
+      </class> <!-- com.swades.rainFall.testCases.GET_reportsclimaticReport -->
+      <class name="com.swades.rainFall.testCases.GET_get_metric__hrly_data">
+        <test-method status="PASS" signature="get_metric__hrly_data()[pri:0, instance:com.swades.rainFall.testCases.GET_get_metric__hrly_data@c3fa05a]" name="get_metric__hrly_data" duration-ms="219" started-at="2024-06-18T12:39:14 IST" finished-at="2024-06-18T12:39:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_metric__hrly_data -->
+      </class> <!-- com.swades.rainFall.testCases.GET_get_metric__hrly_data -->
+      <class name="com.swades.rainFall.testCases.GET_reportsrainfallReport">
+        <test-method status="PASS" signature="get_reportsrainfallReport()[pri:0, instance:com.swades.rainFall.testCases.GET_reportsrainfallReport@201aa8c1]" name="get_reportsrainfallReport" duration-ms="271" started-at="2024-06-18T12:39:15 IST" finished-at="2024-06-18T12:39:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_reportsrainfallReport -->
+      </class> <!-- com.swades.rainFall.testCases.GET_reportsrainfallReport -->
+      <class name="com.swades.rainFall.testCases.GET_get_fps_hrly_data">
+        <test-method status="PASS" signature="get_fps_hrly_data()[pri:0, instance:com.swades.rainFall.testCases.GET_get_fps_hrly_data@66bfd864]" name="get_fps_hrly_data" duration-ms="95" started-at="2024-06-18T12:39:15 IST" finished-at="2024-06-18T12:39:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_fps_hrly_data -->
+      </class> <!-- com.swades.rainFall.testCases.GET_get_fps_hrly_data -->
+      <class name="com.swades.rainFall.testCases.GET_getFlowMeasurementData">
+        <test-method status="PASS" signature="getFlowMeasurementData()[pri:0, instance:com.swades.rainFall.testCases.GET_getFlowMeasurementData@7c974942]" name="getFlowMeasurementData" duration-ms="145" started-at="2024-06-18T12:39:14 IST" finished-at="2024-06-18T12:39:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFlowMeasurementData -->
+      </class> <!-- com.swades.rainFall.testCases.GET_getFlowMeasurementData -->
+      <class name="com.swades.rainFall.testCases.GET_get_sum_sqs_data">
+        <test-method status="PASS" signature="get_sum_sqs_data()[pri:0, instance:com.swades.rainFall.testCases.GET_get_sum_sqs_data@18324f97]" name="get_sum_sqs_data" duration-ms="113" started-at="2024-06-18T12:39:15 IST" finished-at="2024-06-18T12:39:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_sum_sqs_data -->
+      </class> <!-- com.swades.rainFall.testCases.GET_get_sum_sqs_data -->
+      <class name="com.swades.rainFall.testCases.GET_ObsDataHRall">
+        <test-method status="PASS" signature="get_ObsDataHRall()[pri:0, instance:com.swades.rainFall.testCases.GET_ObsDataHRall@5972d253]" name="get_ObsDataHRall" duration-ms="311" started-at="2024-06-18T12:39:15 IST" finished-at="2024-06-18T12:39:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ObsDataHRall -->
+      </class> <!-- com.swades.rainFall.testCases.GET_ObsDataHRall -->
+      <class name="com.swades.rainFall.testCases.GET_Rainfall">
+        <test-method status="PASS" signature="get_Rainfall()[pri:0, instance:com.swades.rainFall.testCases.GET_Rainfall@6a969fb8]" name="get_Rainfall" duration-ms="110" started-at="2024-06-18T12:39:16 IST" finished-at="2024-06-18T12:39:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Rainfall -->
+      </class> <!-- com.swades.rainFall.testCases.GET_Rainfall -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

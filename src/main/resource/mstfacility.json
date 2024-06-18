@@ -1,0 +1,25 @@
+{
+"mstfacility": [
+{
+"id_mststate": "19",
+"id_mstdistrict": "309",
+"id_mstblock": "2858",
+"FacilityTypeMap": "DH",
+"AddressLine1": "Plot No 282/1 , Dharjling",
+"AddressLine2": "",
+"City": "Darjeeling",
+"PinCode": "734101",
+"Phone1": "9911594180",
+"email": "kamran@gmail.com",
+"facility_short_name": "KamranAutomationTesting",
+"id_facility_services": "1",
+"nodal_person": "nodal person name",
+"nodal_person_designation": "NA",
+"ActivationStatus": "1",
+"createdby": "3076",
+"createdOn": "2024-01-24",
+"updatedby": "3076",
+"updatedon": "2024-01-24"
+}
+]
+}
